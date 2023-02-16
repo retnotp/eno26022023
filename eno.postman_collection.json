@@ -1,0 +1,101 @@
+{
+	"info": {
+		"_postman_id": "cf295724-9435-4a9e-b575-240b4f7bf8b6",
+		"name": "eno",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "ruangan",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost/tes16feb/ruangan.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"tes16feb",
+						"ruangan.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "dokter",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost/tes16feb/dokter.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"tes16feb",
+						"dokter.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "pasien",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost/tes16feb/pasien.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"tes16feb",
+						"pasien.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "count_char",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"karakter\":\"A\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost/tes16feb/count_char.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"tes16feb",
+						"count_char.php"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
